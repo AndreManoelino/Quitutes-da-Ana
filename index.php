@@ -153,12 +153,6 @@ file_put_contents('debug.log', $debugOutput, FILE_APPEND);
     <link rel="stylesheet" href="static/style.css">
 </head>
 <body>
-
-    <div class="endereco">
-        <br>Telefone: (31) 99170-8075 ou (31) 99107-0255<br>
-        Rua Álvaro Rodrigues de Alvarenga, 70 <br> Cidade Paulo Camilo, Betim
-    </div>
-
     <header>
         <h1>Quitutes da Ana</h1>
         <nav>
@@ -247,8 +241,9 @@ file_put_contents('debug.log', $debugOutput, FILE_APPEND);
     </main>
         
     <footer>
-        <p>© Loja da Ana. Para mais informações ligue (31) 99170-8075.</p>
-        <a href="https://api.whatsapp.com/send?phone=5531991708075&text=Ol%C3%A1%20quero%20fazer%20um%20pedido%20na%20Loja%20da%20Ana">
+        <p>© Loja da Ana. Para mais informações.<br>Telefone: (31) 99170-8075 ou (31) 99107-0255<br>
+        Rua Álvaro Rodrigues de Alvarenga, 70 <br> Bairro: Paulo Camilo, Cidade:  Betim.</p>
+        <a href="https://api.whatsapp.com/send?phone=5531991708075&text=Ol%C3%A1%20quero%20fazer%20um%20pedido%20na%20Loja%20da%20Ana.%20No%20momento%20não%20consigo%20acessar.%20">
             <img src="assets/imagens/zap.jpg" class="whatsapp-icon" alt="WhatsApp">
         </a>
     </footer>
